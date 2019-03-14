@@ -2,3 +2,8 @@ body {
     background-image: url(../images/tornado.jpg)
 }
 
+.container {
+    text-align: center;
+    color: black;
+    padding: 100px;
+}

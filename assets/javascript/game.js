@@ -3,6 +3,7 @@ window.onload = function () {
 
     var words = ["tornado", "lightning", "hail", "wind", "hurricane", "waterspout", "flash flood", "earthquake", "volcano", "avalanche", "thunderstorm", "rain", "tsunami", "landslide", "wildfire", "sinkhole", "dust devil"]
 
+    //did not end up using ABC array
     var abc = ["a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m", "n", "o", "p", "q", "r", "s", "t", "u", "v", "w", "x", "y", "z"]
 
 
@@ -81,6 +82,10 @@ window.onload = function () {
         document.getElementById("letterGuessed").innerText = letterGuessed.join(" ")
     }
 }
+
+//relied heavily on outside help like stack overflow when my forumlas wouldn't work, win counter still not working. Found formula in line 55 @: https://stackoverflow.com/questions/40120915/javascript-function-that-returns-true-if-a-letter
+
+
 
 
     
